@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Lato', sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: aliceblue;
+    zoom: 50%;
+}
+h1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+}
+i{  
+    color: black;
+}
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10px;
+}
+.logo{
+    margin-left: 40px;
+    cursor: pointer;
+    margin-right: auto;
+}
+.logo img{
+    height: 90px;
+    width: auto;
+    transition: all 0.5;
+}
+.logo img:hover{
+    transform: scale(1.2);
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav-links li:hover{
+    transform: scale(1.1);
+}
+.nav-links a{
+    font-size: 700;
+    color: wheat;
+    text-decoration: none;
+}
+.nav-links li a:hover{
+    color: aliceblue;
+}
+header .btn button{
+    margin-left: 20px;
+    margin-right: 40px;
+    font-weight: 700;
+    color:  #1b3039;
+    padding: 9px 25px;
+    background: wheat;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+header .btn button:hover{
+    background-color: wheat;
+    color: aliceblue;
+    transform: scale(1.1);
+}
+footer{
+    background-color: #1b3039;
+}
+.footer-conteiner{
+    width: 100%;
+    padding: 30px 20px 10px;
+}
+.iconos-redes{
+    display: flex;
+    justify-content: center;
+}
+.iconos-redes a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: wheat;
+    margin: 10px;
+    border-radius: 50%;
+}
+.iconos-redes a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.iconos-redes a:hover{
+    background-color: aliceblue;
+    transition: 0.5s;
+}
+.footer-nav{
+    margin: 30px 0;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footer-nav ul li a{
+    color: wheat;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.footer-nav ul li a:hover{
+    background-color: #1b3039;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bajo{
+    background-color: #1b3039 ;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bajo p{
+    color: wheat;
+    opacity: 0.9;
+}
+.Designer{
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+.imagen-inicio{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    margin: 20px;
+}
+.imagen-frace{
+    display: flex;
+}
+.btn button{
+    margin-left: 20px;
+    margin-right: 40px;
+    font-weight: 700;
+    color:  wheat;
+    padding: 30px 50px;
+    background: #1b3039;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #1b3039;
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.ccci{
+    margin: 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+#conte-carrousel-items{
+    border: 5px solid black;
+    height: 400px;
+    overflow: hidden;
+    width: 60%;
+}
+#conte-carrousel-items2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 10px solid wheat;
+    height: 500px;
+    overflow: hidden;
+    width: 40%;
+}
+.carrousel-items{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.tarjeta-carrousel{
+    height: 100%;
+}
+.flecha-carrousel{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#contePuntos{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#contePuntos a{
+    font-size: 1.5em;
+}
+img{
+    height: 100%;
+}
+.producto{
+    background:#1b3039;
+    border: 1px solid #333;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 31%;
+    height: auto;
+    box-sizing: border-box;
+}
+.producto-venta{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
+}
+.btn-producto{
+    background: wheat;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.btn-producto:hover{
+    background:aliceblue;
+    transform: scale(1.01);
+}
+.productos-img{
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.opciones-estampado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.nosotros-texto {
+    padding: 20px;
+    height: auto;
+    font-size: 1.5rem;
+}
+.formulario-consulta{
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: rgba(36, 175, 180, 0.342);
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0,0, 0,0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 50%;
+}
+form h4{
+    color: #1b3039;
+    font-size: 50px;
+    font-family: cursive;
+}
+.form-txt{
+    display: flex;
+    justify-content: space-between;
+}
+.form-txt a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.form-txt a:hover{
+    color: wheat;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+input , textarea{
+    background-color: aliceblue;
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+}
+.btn-formulario{
+    background-color: #1b3039;
+    color: wheat;
+    cursor: pointer;
+}
+.btn-formulario :hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+}
+
