@@ -9,6 +9,10 @@
 body{
     background-color: aliceblue;
     zoom: 50%;
+    position: relative;
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
 }
 h1{
     margin-top: 50px;
@@ -88,6 +92,10 @@ header .btn button:hover{
 }
 footer{
     background-color: #1b3039;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
 }
 .footer-conteiner{
     width: 100%;
@@ -329,4 +337,3 @@ input , textarea{
     background-color: aliceblue;
     transform: scale(1.1);
 }
-
